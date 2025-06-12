@@ -1,5 +1,5 @@
-const usePrevent = true;
-const useStop = true;
+let usePrevent = true;
+let useStop = true;
 
 document.querySelector('.link').addEventListener('click', function (e) {
     if (usePrevent) {
