@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preventDefault ve stopPropagation</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="prevent">
+            <h3>preventDefault() Kullanım Örnekleri
+            </h3>
+            <ul>
+                <li>
+                    <div class="card">
+                        <h4> a href="#" Tıklamasını Engelleme</h4>
+                        <a href="https://www.w3schools.com/js/" class="link" target="_blank">
+                            <p>JavaScript Dersleri konu anlatımı için tıklayınız</p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <h4> form Submit Engelleme
+                        </h4>
+                        <form class="form">
+                            <div class="input-example">
+                                <input type="text-input" type="text" placeholder="Adınız">
+                                <button type="submit">Gönder</button>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <h4> input type="checkbox" İşaretlemeyi Engelleme
+                        </h4><label style="color: aliceblue;">
+                            <input type="checkbox" class="check"> Kabul ediyorum
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <br>
+        <div class="stop">
+            <h3>stopPropagation() Kullanım Örnekleri
+            </h3>
+            <div class="outer">
+                Dış Div
+                <div class="inner">
+                    İç Div
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
